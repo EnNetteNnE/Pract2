@@ -1,0 +1,14 @@
+INSERT INTO work VALUES ('Walker', 'stunman', '12')
+INSERT INTO work VALUES ('Brown', 'doctor', '24')
+INSERT INTO work VALUES ('King', 'tutor', '1')
+INSERT INTO work VALUES ('Johnson', 'stunman', '6')
+INSERT INTO work VALUES ('Wilson', 'doctor', '13')
+
+INSERT INTO people VALUES ('Harry', 'Johnson', '22', 'single')
+INSERT INTO people VALUES ('Lily', 'King', '19', 'single')
+INSERT INTO people VALUES ('Emily', 'Walker', '34', 'married')
+INSERT INTO people VALUES ('George', 'Wilson', '48', 'single')
+
+DELETE FROM work WHERE work.surname = 'Brown'
+
+SELECT people.name, work.surname FROM people, work WHERE people.surname = work.surname AND work.profession = 'stunman' OR people.surname = work.surname AND people.age = '19'
