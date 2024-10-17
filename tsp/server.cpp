@@ -12,7 +12,7 @@
 #include <thread>
 #include <future>
 
-#define DEFAULT_PORT 1613
+#define DEFAULT_PORT 7432
 #define ERROR_S "SERVER ERROR: "
 #define BUFFER_SIZE 1024 
 #define CLIENT_CLOSE_CONNECTION_SYMBOL '#'
