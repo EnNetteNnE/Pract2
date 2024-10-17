@@ -9,7 +9,7 @@
 #include <netinet/in.h>
 
 #define SERVER_IP "127.0.0.1"
-#define DEFAULT_PORT 1613
+#define DEFAULT_PORT 7432
 #define ERROR_S "CLIENT ERROR: "
 #define BUFFER_SIZE 1024 
 #define CLIENT_CLOSE_CONNECTION_SYMBOL '#'
